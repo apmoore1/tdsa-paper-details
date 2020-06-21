@@ -1,16 +1,16 @@
 # TDSA Paper Details
 
-The papers defined in the TSV file are for those for the task of Target Dependent Sentiment Analysis (TDSA), also known as Apsect Based Sentiment Analysis (ABSA). TDSA is the task of predicting the sentiment of a target with respect to the text it is within, whereby the target is always in the text and never latent. An example of a TDSA sample is shown below:
+The papers defined in the [TSV file](./tdsa_paper_details.tsv) are for those for the task of Target Dependent Sentiment Analysis (TDSA), also known as Apsect Based Sentiment Analysis (ABSA). TDSA is the task of predicting the sentiment of a target with respect to the text it is within, whereby the target is always in the text and never latent. An example of a TDSA sample is shown below:
 
 Bob said that "**Github** is a great platform for releasing code and is much better than **GitLab**.
 
 This sample has two targets which are in bold (Github and GitLab) which have two different sentiments (positive and negative) in this example. The task for TDSA would be given a target and the text it appears in predict the sentiment towards it for instance given the sample above and the target **Github** the correct prediction would be positive. 
 
-The papers in the TSV file also contains papers that perform Targeted Sentiment Anlysis (TSA) ([Mitchell et al. 2013](https://www.aclweb.org/anthology/D13-1171.pdf)) which is the task of extracting the targets and then predicting the sentiment for those extracted targets. Thus in comparison to TDSA it performs the extraction of targets as an extra step before TDSA. These papers were included in the TSV as they perform TDSA even if it is in a joint manner with the extraction of targets. 
+The papers in the [TSV file](./tdsa_paper_details.tsv) also contains papers that perform Targeted Sentiment Anlysis (TSA) ([Mitchell et al. 2013](https://www.aclweb.org/anthology/D13-1171.pdf)) which is the task of extracting the targets and then predicting the sentiment for those extracted targets. Thus in comparison to TDSA it performs the extraction of targets as an extra step before TDSA. These papers were included in the [TSV](./tdsa_paper_details.tsv) as they perform TDSA even if it is in a joint manner with the extraction of targets. 
 
-The list of papers in the TSV are not up-to-date, they are all papers that perform the task of TDSA or TSA and have been published after **2013 and before 2019** at the following conferences/workshop 1. ACL, 2. EACL, 3. NAACL, 4. EMNLP, 5. CONLL, 6. COLING, 7. AAAI, 8. TACL, 9. IJCAI, 10. WASSA (workshop). In total there are **31** papers. **NOTE** TACL had no TDSA or TSA papers between 2013 and before 2019.
+The list of papers in the [TSV](./tdsa_paper_details.tsv) are not up-to-date, they are all papers that perform the task of TDSA or TSA and have been published after **2013 and before 2019** at the following conferences/workshop 1. ACL, 2. EACL, 3. NAACL, 4. EMNLP, 5. CONLL, 6. COLING, 7. AAAI, 8. TACL, 9. IJCAI, 10. WASSA (workshop). In total there are **31** papers. **NOTE** TACL had no TDSA or TSA papers between 2013 and before 2019.
 
-Contains one TSV file with the following headers:
+Contains one [TSV file](./tdsa_paper_details.tsv) with the following headers:
 1. Paper -- Title of the paper.
 2. Paper URL -- URL to the paper.
 3. Year -- Year the paper was published at the conference/workshop.
