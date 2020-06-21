@@ -31,11 +31,17 @@ Contains one [TSV file](./tdsa_paper_details.tsv) with the following headers:
 
 We analysis the data/metadata within the [TSV file](./tdsa_paper_details.tsv) within the associated [notebook](./tdsa_paper_details_analysis.ipynb). We find that the number of papers are increasing every year and the most popular venue is EMNLP:
 
+![Year count](./year_venue_count.png)
+
 From the 31 papers **16** papers provide a codebase of which **3** of those 16 do not provide a link in the paper.
 
 Per year there are more codebases being released alongside the paper. However as we know more papers are being created each year. Thus when you normalise the codebase release counts by the number of papers being released each year the percentage of codebase being released is getting fewer, as shown below:
 
+![Year codebase](./year_codebase.png)
+
 We also plot the number of codebases being released with the paper by **venue** instead of **year**, as shown below:
+
+![Venue codebase](./venue_codebase.png)
 
 From this plot above we can see that 100% of CONLL, EACL, and WASSA papers have codebases with their papers but only 1, 2, and 1 papers have been published at these venues. The largest venue EMNLP which has published 9 papers on average only 33% of those papers will have a codebase associated with them.
 
