@@ -26,3 +26,18 @@ Contains one [TSV file](./tdsa_paper_details.tsv) with the following headers:
 13. Embeddings -- All coulmns from 13 onwards specify the embeddings used in the paper, there is more than one columns as some papers used more than one embedding or tested more than one embedding, thus each column only contains one embedding name. All papers use at least one embedding, the most embeddings used is 4 thus in that case there is an embedding name in column 16.
 
 **NOTE** Even though the paper `Transformation Networks for Target-Oriented Sentiment Classification` is labelled as having a link to [code](https://github.com/lixin4ever/TNet), the actual code to run the model is not in the codebase and can only be retrived via asking the authors in the following [Github issue](https://github.com/lixin4ever/TNet/issues/10).
+
+## Analysis
+
+We analysis the data/metadata within the [TSV file](./tdsa_paper_details.tsv) within the associated [notebook](./tdsa_paper_details_analysis.ipynb). We find that the number of papers are increasing every year and the most popular venue is EMNLP:
+
+From the 31 papers **16** papers provide a codebase of which **3** of those 16 do not provide a link in the paper.
+
+Per year there are more codebases being released alongside the paper. However as we know more papers are being created each year. Thus when you normalise the codebase release counts by the number of papers being released each year the percentage of codebase being released is getting fewer, as shown below:
+
+We also plot the number of codebases being released with the paper by **venue** instead of **year**, as shown below:
+
+From this plot above we can see that 100% of CONLL, EACL, and WASSA papers have codebases with their papers but only 1, 2, and 1 papers have been published at these venues. The largest venue EMNLP which has published 9 papers on average only 33% of those papers will have a codebase associated with them.
+
+
+In conclusion this analysis suggests that the sub-field of sentiment analysis, TDSA, is growing a lot each year but fewer people are releasing their code. Large cavet with this work is that we have not looked at papers published in 2019 nor 2020.
