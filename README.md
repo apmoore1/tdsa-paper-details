@@ -1,6 +1,6 @@
 # TDSA Paper Details
 
-The papers defined in the [TSV file](./tdsa_paper_details.tsv) are for those for the task of Target Dependent Sentiment Analysis (TDSA), also known as Apsect Based Sentiment Analysis (ABSA). TDSA is the task of predicting the sentiment of a target with respect to the text it is within, whereby the target is always in the text and never latent. An example of a TDSA sample is shown below:
+The papers defined in the [TSV file](./tdsa_paper_details.tsv) (TSV file named tdsa_paper_details.tsv) are for those for the task of Target Dependent Sentiment Analysis (TDSA), also known as Apsect Based Sentiment Analysis (ABSA). TDSA is the task of predicting the sentiment of a target with respect to the text it is within, whereby the target is always in the text and never latent. An example of a TDSA sample is shown below:
 
 Bob said that "**Github** is a great platform for releasing code and is much better than **GitLab**.
 
